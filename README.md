@@ -12,6 +12,17 @@ communication E-mail: yangziyi091100@163.com
 
 With recent advancement of technologies, it is progressively easier to produce diverse types of genome-wide data. Integrative analysis is a commonly used method to integrate these data and is expected to improve our understanding of a complex biological system. Current methods, however, have some limitations and are prone to overfitting heavy noise. High noise is one of the major challenges for multi-omics data integration, which may be susceptible to overfitting and lead to poor performance in generalization. Sample reweighting strategy is typically used to address this problem. In this paper, we propose a robust multimodal data integration method, termed as SMSPL, which can simultaneously predict subtypes of cancer and identify potentially significant multi-omics signatures. Especially, the proposed method leverages the linkages between different types of data to interactively recommend high-confidence samples, adopts a new soft weighting scheme to assign weights to the training samples of each type, and then iterates between weights recalculating and classifiers updating. Simulation and five real experiments substantiate the capability of the proposed method for classification and identification of significant multi-omics signatures in heavy noise. We expect SMSPL to take a small step in the multi-omics data integration and help researchers comprehensively understand the biological process.
 
+If you find this code useful in your research then please cite:
+```bash
+@article{
+  title={SMSPL: Robust Multimodal Approach to Integrative Analysis of Multi-omics Data},
+  author={Yang, Zi-Yi, Wu Nai-Qi, Liang Yong, Zhang Hui, and Ren Yan-Qiong},
+  journal={IEEE Transactions on Cybernetics},
+  year={2020},
+  publisher={IEEE}
+}
+```
+
 ## II. Introduce about code
 
 ### i . The repository can be divided into three parts: 
